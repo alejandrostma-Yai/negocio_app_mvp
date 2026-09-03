@@ -1,0 +1,6 @@
+FINANCIA FLOW v9.3
+
+1. Sube esta versión como las anteriores.
+2. En Vercel deja Root Directory vacío.
+3. No hay SQL nuevo para v9.3.
+4. Conserva Realtime de v9.1.

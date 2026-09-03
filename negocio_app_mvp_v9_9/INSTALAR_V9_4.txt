@@ -1,0 +1,6 @@
+FINANCIA FLOW V9.4
+
+1. Subir el proyecto a Git/Vercel como en la versión anterior.
+2. Root Directory en Vercel: vacío.
+3. No requiere SQL nuevo.
+4. La Vista rápida está optimizada para una sola pantalla en iPhone y iPad vertical.

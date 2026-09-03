@@ -1,0 +1,18 @@
+FINANCIA FLOW / CONTROL DE NEGOCIO v9.2
+
+CAMBIO PRINCIPAL
+- Nuevo botón de Vista rápida en la barra superior del Inicio, justo antes de Salir.
+- Abre /vista sin reemplazar la pantalla de Inicio.
+- La vista rápida tiene panel circular con resumen del día.
+- Citas del día, Pendientes de llamar y Bloc empiezan cerrados.
+- Al tocar uno, su contenido se abre debajo del panel y encima de los temporizadores.
+- Solo una lista se muestra a la vez; al cerrarla no queda ningún panel visible.
+- Pendientes de llamar muestra solo números asociados a citas de hoy.
+- Incluye contador diario y semanal.
+- Mantiene Supabase Realtime de v9.1.
+
+SUPABASE
+No requiere SQL nuevo si ya ejecutaste v9_1_migration.sql.
+
+VERCEL
+Sube el contenido con Root Directory vacío, igual que v9.1.
