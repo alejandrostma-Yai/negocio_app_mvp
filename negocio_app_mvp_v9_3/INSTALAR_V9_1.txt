@@ -1,0 +1,10 @@
+OG / Financia Flow v9.1
+
+1. Sube/reemplaza estos archivos en tu proyecto. El ZIP viene con los archivos del proyecto directamente en la raíz; en Vercel deja Root Directory vacío.
+2. En Supabase > SQL Editor ejecuta: supabase/v9_1_migration.sql
+3. Vuelve a desplegar en Vercel.
+
+Cambios:
+- Realtime entre dispositivos para datos operativos.
+- Temporizador regresivo de cierre diario/semanal en Inicio.
+- Se conserva todo lo de v9, incluido Agregar dinero manualmente a Capital.
