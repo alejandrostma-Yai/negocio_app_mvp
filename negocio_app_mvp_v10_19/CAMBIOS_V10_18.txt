@@ -1,0 +1,6 @@
+FINANCIA FLOW v10.18
+
+- Vista rápida descuenta business_expenses del monto bruto disponible de hoy.
+- Total bruto mensual sigue mostrando ventas históricas sin descontar retiros.
+- Vista rápida se actualiza por evento Realtime de business_expenses y con refresco cada 15 segundos.
+- No requiere migración SQL nueva; reutiliza la tabla business_expenses creada por la migración previa.
