@@ -1,0 +1,14 @@
+FINANCIA FLOW / CONTROL DE NEGOCIO — V10.17
+
+Corrección de interfaz:
+- Agrega botones visibles “Retirar del monto bruto” e “Historial de retiros” dentro de la tarjeta del monto bruto.
+- Mantiene el acceso “Gastos e historial de retiros”.
+- Agrega ruta alternativa /retiros que abre la misma pantalla.
+- La pantalla registra gastos/retiros de Empresa 2 y muestra ventas brutas, total de gastos, bruto disponible e historial.
+
+IMPORTANTE:
+- Esta versión NO requiere ejecutar SQL adicional si la migración v10.16 ya se ejecutó correctamente.
+- No borres ni reemplaces datos de Supabase.
+- Sube el contenido de esta carpeta a la carpeta configurada como Root Directory en Vercel.
+- Comprueba que src/app/gastos/page.tsx y src/app/retiros/page.tsx queden dentro de ese Root Directory.
+- Si el repositorio contiene la carpeta negocio_app_mvp_v10_17 en la raíz, Root Directory debe ser negocio_app_mvp_v10_17. Si ya subiste el contenido directamente a la raíz del repositorio, Root Directory debe ser . (raíz), no una carpeta inexistente.
